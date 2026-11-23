@@ -3,40 +3,40 @@
 Team GenAI_DSC120A_04: Farzaneh Barzegar (team lead), Lokesh Chamakuri, Sharani Ediga
 
 ## 1. Problem statement
-<!-- Farzaneh -->
+*Owner: Farzaneh*
 
 ## 2. Who will use it
-<!-- Farzaneh -->
+*Owner: Farzaneh*
 
 ## 3. What the app does
-<!-- All -->
+*Owner: all*
 
 ## 4. How it has to behave
-<!-- Lokesh -->
+*Owner: Lokesh*
 
 ## 5. Dataset and license
-<!-- Lokesh -->
+*Owner: Lokesh*
 
 ## 6. Architecture
-<!-- Farzaneh: diagram + short explanation -->
+*Owner: Farzaneh (diagram + short explanation)*
 
 ## 7. Tools
-<!-- All -->
+*Owner: all*
 
 ## 8. Baseline
-<!-- Farzaneh: rule-only routing vs LLM-assisted workflow -->
+*Owner: Farzaneh (rule-only routing vs LLM-assisted workflow)*
 
 ## 9. Five user stories
-<!-- Sharani: five end-to-end journeys with success criteria -->
+*Owner: Sharani (five end-to-end journeys with success criteria)*
 
 ## 10. How we test it
-<!-- Sharani: 50 scenarios, metrics, usability review -->
+*Owner: Sharani (50 scenarios, metrics, usability review)*
 
 ## 11. Timeline
-<!-- Farzaneh: v0.1, v0.2, v1.0 with dates -->
+*Owner: Farzaneh (v0.1, v0.2, v1.0 with dates)*
 
 ## 12. Risks
-<!-- All -->
+*Owner: all*
 
 ## 13. Team responsibilities
-<!-- Farzaneh -->
+*Owner: Farzaneh*
