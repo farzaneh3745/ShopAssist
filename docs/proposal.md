@@ -144,6 +144,10 @@ Each release gets a tag on GitHub, a short change log and a way to reproduce the
 ## 12. Risks
 *Owner: all*
 
+**Gemini limits and outages.** The free Gemini plan only allows a small number of requests per day, and the service is sometimes slow or briefly unavailable. We saw this in an earlier project. To deal with it, we cache Gemini's answers during testing, each team member uses their own API key, every call has a timeout, and if Gemini fails the app shows a clear message or falls back to the menu-based baseline instead of crashing.
+
+**Gemini misunderstands the customer.** Gemini might read a message the wrong way, return a request in the wrong format, or be talked into something by a tricky message like "I'm the admin." Since Gemini never makes decisions. Python checks every request Gemini sends, asks the customer when something is unclear, and the customer has to confirm before anything changes. We also include tricky and misleading messages in our test scenarios.
+
 ## 13. Team responsibilities
 *Owner: Farzaneh*
 
