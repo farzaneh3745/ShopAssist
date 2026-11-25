@@ -87,7 +87,21 @@ Here's how a normal request goes. A customer asks to cancel an order. Gemini und
 - **GitHub** for the code, issues, pull requests, weekly progress notes and tagged releases (v0.1, v0.2, v1.0).
 
 ## 8. Baseline
-*Owner: Farzaneh (rule-only routing vs LLM-assisted workflow)*
+*Owner: Farzaneh*
+
+To find out whether Gemini really helps, we also build a version without it and compare the two.
+
+In the baseline there's no language model. The customer picks what they want from a menu (track an order, cancel, return, open a ticket) and chooses the order from a list. If they type a message instead, the app only looks for simple keywords like "cancel" or "return".
+
+Both versions send their requests to the same Python backend, so the same rules and checks apply to both. The only thing that changes is how the app works out what the customer wants.
+
+We run both on the same test scenarios and compare:
+- how many requests end with the right result,
+- how often the rules are followed (this should be close to 100% for both, since the backend is shared),
+- how each one deals with unclear or incomplete messages, and how many follow-up questions it needs,
+- how long a request takes and what it costs in API calls.
+
+We expect the Gemini version to cope much better with messy, free-text messages, and the baseline to be faster, cheaper and just as safe. The results will show whether the extra cost is worth it.
 
 ## 9. Five user stories
 *Owner: Sharani (five end-to-end journeys with success criteria)*
